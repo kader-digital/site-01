@@ -1,9 +1,18 @@
+html {
+
+    background-color: brown;
+
+}
+
 .wrapper {
 
     margin: 0px auto 0px auto;
     width: 700px;
+    height: 1000px;
     padding: 0px 0px 0px 0px;
     font-family: Arial;
+    background-color: brown;
+    overflow: auto;
 
 }
 
@@ -17,8 +26,9 @@ a {
 nav {
 
     list-style-type: none;
+    width: 97%;
     display: inline-block;
-    float: left;
+    float: center;
     margin: 10px 10px 10px 10px;
 
 }
@@ -27,38 +37,19 @@ ul li {
 
     list-style-type: none;
     display: inline-block;
-    padding: 5px 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 25px 5px 25px;
     float: left;
 
 }
 
-form {
 
-    float: center;
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin: auto;
-
-}
-
-fieldset {
-
-    padding: 5px 25px 5px 25px;
-    float: center;
-    margin: auto 5px auto 5px;
-
-}
-
-input, select {
-
-    display: inline;
-    float: right;
-
-}
 
 a:hover {
 
-    color: red;
+    color: orange;
+    background-color: yellow;
 
 }
 
@@ -66,6 +57,8 @@ h1 {
 
     float: left;
     display: inline;
+    padding: 5px 5px 5px 10px;
+    margin-left: 10px;
 
 }
 
@@ -73,13 +66,16 @@ h3 {
 
     float: right;
     padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+    color: brown;
     
 
 }
 
-header {
+header , footer{
 
     display: block;
+    background-color: maroon;
 
 }
 
@@ -89,4 +85,35 @@ header {
 
 }
 
+p {
+
+    font-size: 60%;
+    opacity: 60%;
+    margin: auto;
+
+}
+
+
+img {
+
+    width: 60%;
+    height: 90%;
+    padding: 0px 0px 0px 0px;
+    margin: auto auto auto auto;
+
+}
+
+legend {
+
+    background-color: tomato;
+    border-radius: 2px;
+
+}
+fieldset {
+
+    margin: auto;
+    text-align: center;
+    width: 75%;
+
+}
 
