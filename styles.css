@@ -37,18 +37,21 @@ form {
     float: center;
     display: inline-block;
     padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+    margin: auto;
 
 }
 
 fieldset {
 
-    padding: 5px 5px 5px 5px;
+    padding: 5px 25px 5px 25px;
+    float: center;
+    margin: auto 5px auto 5px;
 
 }
 
 input, select {
 
+    display: inline;
     float: right;
 
 }
@@ -69,9 +72,21 @@ h1 {
 h3 {
 
     float: right;
+    padding: 5px 5px 5px 5px;
     
 
 }
 
+header {
+
+    display: block;
+
+}
+
+.content {
+
+    padding-left: 185px;
+
+}
 
 
