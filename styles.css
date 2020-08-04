@@ -38,9 +38,15 @@ ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: auto;
+    justify-content: center;
     margin-right: auto;
-    padding: 0px 25px 0px 25px;
+    padding: 5px 25px 5px 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-style: solid;
     float: left;
+    background-color: tomato;
+    color: maroon;
 
 }
 
@@ -48,8 +54,7 @@ ul li {
 
 a:hover {
 
-    color: orange;
-    background-color: yellow;
+    color: red;
 
 }
 
