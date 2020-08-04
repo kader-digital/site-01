@@ -26,9 +26,9 @@ a {
 nav {
 
     list-style-type: none;
-    width: 97%;
+    width: 100%;
     display: inline-block;
-    float: center;
+    content-justify: center;
     margin: 0px 10px 0px 10px;
 
 }
@@ -50,11 +50,18 @@ ul li {
 
 }
 
+ul li:hover {
+
+    background-color: red;
+    color: brown;
+
+}
+
 
 
 a:hover {
 
-    color: red;
+    color: grey;
 
 }
 
