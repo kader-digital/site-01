@@ -26,16 +26,17 @@
                 <img src="pr.jpg" alt="fillet mignon">
             </article>
             <footer>
-                <form>
+                <br>
+                <form action="form.php" method="post">
                     <fieldset>
                         <legend>Mailer</legend>
-                        Name: <input type="text">
-                        Email: <input type="email">
+                        Name: <input name="name" type="text" minlength="2" required>
+                        Email: <input name="email" type="email" minlength="5" required>
                         <input type="submit" value="submit" style="float: right">
                         <br>
                     </fieldset>
                 </form>
-                <br><br>
+                <br>
             </footer>
             <p>1701 Seafood &amp steaks llc.</p>
         </div>

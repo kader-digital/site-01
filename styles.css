@@ -76,10 +76,11 @@ h3 {
 
 }
 
-header , footer{
+header, footer {
 
     display: block;
     background-color: maroon;
+    margin: 0px 0px 0px 0px;
 
 }
 
@@ -90,7 +91,6 @@ p {
     margin: auto;
 
 }
-
 
 img {
 
@@ -106,7 +106,7 @@ legend {
     background-color: tomato;
     border-radius: 2px;
     padding: 2px 5px 2px 5px;
-    margin: 2px 2px 2px 2px;
+    margin: 0px 2px 0px 2px;
     display: inline;
 
 }
